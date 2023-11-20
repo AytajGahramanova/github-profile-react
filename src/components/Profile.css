@@ -1,0 +1,27 @@
+.wrapper {
+  background: rgba(51, 109, 179, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 600px;
+  height: 300px;
+  margin: 10px auto;
+}
+.items{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.image img{ 
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
